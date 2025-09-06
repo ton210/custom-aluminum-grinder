@@ -4,15 +4,904 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premium Custom 4-Piece Aluminum Grinder - MunchMakers</title>
-    <meta http-equiv="refresh" content="0; url=./interstitial-landing.html">
-    <link rel="canonical" href="./interstitial-landing.html">
+    <meta name="description" content="Elevate your brand with premium, custom-engraved aluminum grinders. Durable 4-piece design, 10 colors, and precision laser engraving.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #8BC34A 0%, #689F38 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            height: 60px;
+            width: auto;
+        }
+
+        .header-contact {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+
+        .contact-item-header {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #666;
+        }
+
+        .contact-item-header a {
+            color: #8BC34A;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-item-header a:hover {
+            text-decoration: underline;
+        }
+
+        .instagram-link {
+            background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            color: white !important;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+
+        .instagram-link:hover {
+            transform: translateY(-2px);
+            text-decoration: none !important;
+        }
+
+
+        .hero {
+            padding: 60px 0;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 40px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .product-showcase {
+            background: white;
+            padding: 80px 0;
+            margin: 0;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .product-images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .product-image:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-info h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .sale-badge {
+            background: #dc3545;
+            color: white;
+            padding: 6px 12px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            border-radius: 4px;
+            position: absolute;
+            top: -10px;
+            left: -20px;
+            transform: rotate(-5deg);
+        }
+
+        .features {
+            list-style: none;
+            margin-bottom: 40px;
+        }
+
+        .features li {
+            padding: 12px 0;
+            font-size: 1.2rem;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .features li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #8BC34A;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+        .pricing-section {
+            margin: 30px 0;
+            padding: 25px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 12px;
+            border: 2px solid #8BC34A;
+        }
+
+        .retail-price {
+            font-size: 1.4rem;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .wholesale-price {
+            font-size: 2.2rem;
+            color: #8BC34A;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .wholesale-note {
+            font-size: 1.1rem;
+            color: #666;
+            font-style: italic;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .cta-button {
+            color: white;
+            padding: 18px 32px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            flex: 1;
+            text-align: center;
+            min-width: 180px;
+        }
+
+        .cta-button.primary {
+            background: linear-gradient(135deg, #8BC34A, #689F38);
+            box-shadow: 0 4px 15px rgba(139, 195, 74, 0.4);
+        }
+
+        .cta-button.primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(139, 195, 74, 0.6);
+            background: linear-gradient(135deg, #9CCC65, #7CB342);
+        }
+
+        .cta-button.secondary {
+            background: linear-gradient(135deg, #2C3E50, #34495E);
+            box-shadow: 0 4px 15px rgba(44, 62, 80, 0.3);
+        }
+
+        .cta-button.secondary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(44, 62, 80, 0.5);
+            background: linear-gradient(135deg, #34495E, #2C3E50);
+        }
+
+        .color-options {
+            background: #f8f9fa;
+            padding: 60px 0;
+        }
+
+        .color-options h3 {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .colors {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .color-option {
+            text-align: center;
+        }
+
+        .color-swatch {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .color-swatch:hover {
+            transform: scale(1.1);
+        }
+
+        .color-swatch.black { background: #2c3e50; }
+        .color-swatch.gold { background: linear-gradient(135deg, #f7dc6f, #d4af37); }
+        .color-swatch.blue { background: linear-gradient(135deg, #3498db, #2980b9); }
+        .color-swatch.green { background: linear-gradient(135deg, #2ecc71, #27ae60); }
+        .color-swatch.gunmetal { background: linear-gradient(135deg, #5d6d7e, #34495e); }
+
+        .trust-indicators {
+            background: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .trust-item {
+            padding: 20px;
+        }
+
+        .trust-item h4 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .trust-item p {
+            color: #666;
+        }
+
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin: 40px 0;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 12px;
+            border: 2px solid #8BC34A;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #8BC34A;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .trustpilot-rating {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .trustpilot-logo {
+            height: 40px;
+            width: auto;
+        }
+
+        .rating {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .stars {
+            font-size: 1.5rem;
+            color: #ff6900;
+        }
+
+        .rating-score {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .rating-link {
+            color: #8BC34A;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .rating-link:hover {
+            text-decoration: underline;
+        }
+
+        .design-cta {
+            margin: 20px 0;
+        }
+
+        .design-button {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a5a);
+            color: white;
+            padding: 14px 28px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+        }
+
+        .design-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+            background: linear-gradient(135deg, #ff5252, #f44336);
+        }
+
+        .wholesale-benefits {
+            background: linear-gradient(135deg, #2C3E50, #34495E);
+            color: white;
+            padding: 60px 0;
+        }
+
+        .wholesale-benefits h3 {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .wholesale-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .wholesale-item {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+        }
+
+        .wholesale-item h4 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: #8BC34A;
+        }
+
+        .wholesale-item p {
+            color: #ecf0f1;
+            line-height: 1.6;
+        }
+
+        .instagram-section {
+            background: #f8f9fa;
+            padding: 60px 0;
+        }
+
+        .instagram-section h3 {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .instagram-feed {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .instagram-embed {
+            max-width: 540px;
+            width: 100%;
+        }
+
+        .instagram-follow-btn {
+            background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            color: white;
+            padding: 16px 32px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(188, 24, 136, 0.3);
+        }
+
+        .instagram-follow-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(188, 24, 136, 0.5);
+        }
+
+        footer {
+            background: #2C3E50;
+            color: white;
+            padding: 40px 0;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .footer-info {
+            text-align: left;
+        }
+
+        .contact-info {
+            text-align: right;
+        }
+
+        .contact-item {
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .contact-item a {
+            color: #8BC34A;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .product-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .colors {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .trust-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .wholesale-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-row {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                padding: 20px 10px;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+
+            .product-images {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+
+            .sticky-cta {
+                display: block;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 20px;
+            }
+
+            .footer-info, .contact-info {
+                text-align: center;
+            }
+
+            .header-contact {
+                display: none;
+            }
+
+            .header-content {
+                justify-content: center;
+            }
+        }
+
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: linear-gradient(135deg, #8BC34A, #689F38);
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+            display: none;
+        }
+
+        .sticky-cta .cta-button {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+            display: block;
+            background: white;
+            color: #8BC34A;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .sticky-cta .cta-button:hover {
+            background: #f0f0f0;
+            transform: none;
+        }
+    </style>
 </head>
 <body>
-    <p>Redirecting to <a href="./interstitial-landing.html">Premium Custom 4-Piece Aluminum Grinder</a>...</p>
-    
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="https://munchmakers.com" target="_blank">
+                    <img src="downloaded_content/images/munchmakers-logo_1_1752112946__55141.original.png" alt="MunchMakers" class="logo">
+                </a>
+                <div class="header-contact">
+                    <div class="contact-item-header">
+                        📧 <a href="mailto:help@munchmakers.com">help@munchmakers.com</a>
+                    </div>
+                    <div class="contact-item-header">
+                        📞 <a href="tel:+16506403836">+1 650-640-3836</a>
+                    </div>
+                    <a href="https://instagram.com/munchmakersshop" target="_blank" class="instagram-link">
+                        📷 Follow @munchmakersshop
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="container">
+            <h1>Premium Custom Aluminum Grinder</h1>
+            <p>Professional-grade 4-piece design with precision engineering</p>
+        </div>
+    </section>
+
+    <section class="product-showcase">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-images">
+                    <img src="downloaded_content/images/4pc-Alu-G__90354.1752830093.png" alt="4-Piece Aluminum Grinder" class="product-image">
+                    <img src="downloaded_content/images/4-piece-grinder-opened-1024x800_1753161594.jpeg" alt="Grinder Parts" class="product-image">
+                    <img src="downloaded_content/images/aluminum-4-piece-grinder-1024x800_1753161593.jpeg" alt="Premium Aluminum Grinder" class="product-image">
+                    <img src="downloaded_content/images/A4PG-3_1753161596.jpg" alt="Custom Engraving" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h2>
+                        <span class="sale-badge">On Sale</span>
+                        Premium 4-Piece Design
+                    </h2>
+                    <div class="design-cta">
+                        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/" class="design-button" onclick="trackConversion()">🎨 Start Designing Your Custom Grinder</a>
+                    </div>
+                    <ul class="features">
+                        <li>Durable aircraft-grade aluminum construction</li>
+                        <li>Precision CNC machined components</li>
+                        <li>Custom laser engraving available</li>
+                        <li>Professional magnetic closure system</li>
+                        <li>Sharp diamond-cut teeth for optimal performance</li>
+                        <li>Fine mesh screen for perfect consistency</li>
+                        <li>Available in 10 stunning colors</li>
+                    </ul>
+                    <div class="pricing-section">
+                        <div class="retail-price">Retail: Starting at $29.95</div>
+                        <div class="wholesale-price">Wholesale: As low as $7.95 each</div>
+                        <div class="wholesale-note">Perfect for bulk orders & resellers</div>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/" class="cta-button primary">Order Now</a>
+                        <a href="https://munchmakers.com/" class="cta-button secondary">View All Grinders</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wholesale-benefits">
+        <div class="container">
+            <h3>🏪 Wholesale & Bulk Pricing Available</h3>
+            <div class="wholesale-grid">
+                <div class="wholesale-item">
+                    <h4>💰 Bulk Discounts</h4>
+                    <p>Starting at $7.95 each for large orders. Perfect for retailers, dispensaries, and distributors.</p>
+                </div>
+                <div class="wholesale-item">
+                    <h4>🎨 100+ Grinder Styles</h4>
+                    <p>Choose from our extensive collection including 2-piece, 4-piece, zinc, aluminum, and custom designs.</p>
+                </div>
+                <div class="wholesale-item">
+                    <h4>🏷️ Custom Branding</h4>
+                    <p>Add your logo, brand name, or custom design with professional laser engraving services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="color-options">
+        <div class="container">
+            <h3>Choose Your Perfect Color</h3>
+            <div class="colors">
+                <div class="color-option">
+                    <div class="color-swatch black"></div>
+                    <span>Black</span>
+                </div>
+                <div class="color-option">
+                    <div class="color-swatch gold"></div>
+                    <span>Gold</span>
+                </div>
+                <div class="color-option">
+                    <div class="color-swatch blue"></div>
+                    <span>Blue</span>
+                </div>
+                <div class="color-option">
+                    <div class="color-swatch green"></div>
+                    <span>Green</span>
+                </div>
+                <div class="color-option">
+                    <div class="color-swatch gunmetal"></div>
+                    <span>Gun Metal</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="instagram-section">
+        <div class="container">
+            <h3>See Our Latest Designs on Instagram</h3>
+            <div class="instagram-feed">
+                <div class="instagram-embed">
+                    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/munchmakersshop/" data-instgrm-version="14">
+                        <div style="background:#F4F4F4; border-radius:4px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                            <div style="padding:16px;">
+                                <a href="https://www.instagram.com/munchmakersshop/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                                    <div style="display: flex; flex-direction: row; align-items: center;">
+                                        <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+                                        <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                            <div style="background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+                                            <div style="background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+                                        </div>
+                                    </div>
+                                    <div style="padding: 19% 0;"></div>
+                                    <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                                        <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1">
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                                    <g>
+                                                        <path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div style="padding-top: 8px;">
+                                        <div style="color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this profile on Instagram</div>
+                                    </div>
+                                    <div style="padding: 12.5% 0;"></div>
+                                </a>
+                                <p style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                    <a href="https://www.instagram.com/munchmakersshop/" style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank">MunchMakers (@munchmakersshop)</a> • Instagram photos and videos
+                                </p>
+                            </div>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="instagram-cta">
+                    <a href="https://instagram.com/munchmakersshop" target="_blank" class="instagram-follow-btn">
+                        Follow @munchmakersshop for Design Inspiration
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust-indicators">
+        <div class="container">
+            <h3>Why Choose MunchMakers?</h3>
+            <div class="stats-row">
+                <div class="stat-item">
+                    <div class="stat-number">5M+</div>
+                    <div class="stat-label">Grinders Manufactured</div>
+                </div>
+                <div class="stat-item trustpilot-rating">
+                    <img src="downloaded_content/images/trustpilot-logo.png" alt="Trustpilot" class="trustpilot-logo">
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-score">4.6/5</span>
+                    </div>
+                    <a href="https://www.trustpilot.com/review/munchmakers.com" target="_blank" class="rating-link">View Reviews</a>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <h4>🏆 Premium Quality</h4>
+                    <p>Only the finest materials and precision manufacturing processes</p>
+                </div>
+                <div class="trust-item">
+                    <h4>🎨 Custom Branding</h4>
+                    <p>Professional laser engraving for your brand or personal design</p>
+                </div>
+                <div class="trust-item">
+                    <h4>🚀 Fast Shipping</h4>
+                    <p>Quick turnaround times and reliable delivery worldwide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sticky-cta">
+        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/" class="cta-button" onclick="trackConversion()">Order Now - $29.95</a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2024 MunchMakers. Professional grinding solutions for discerning customers.</p>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <strong>📧 Email:</strong> <a href="mailto:help@munchmakers.com">help@munchmakers.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📞 Phone:</strong> <a href="tel:+16506403836">+1 650-640-3836</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Google Analytics Global Site Tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17416518859"></script>
     <script>
-        // Immediate redirect for better compatibility
-        window.location.href = './interstitial-landing.html';
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-17416518859');
     </script>
+
+    <script>
+        // Google Ads conversion tracking
+        function trackConversion() {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-17416518859/2bHcCJvUo5UbEMv56_BA',
+                'value': 29.95,
+                'currency': 'USD'
+            });
+        }
+
+        // Analytics tracking for FB campaigns and general CTA clicks
+        document.addEventListener('DOMContentLoaded', function() {
+            // Track CTA button clicks
+            const ctaButtons = document.querySelectorAll('.cta-button');
+            ctaButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Google Analytics event
+                    if (typeof gtag !== 'undefined') {
+                        gtag('event', 'click', {
+                            'event_category': 'CTA',
+                            'event_label': 'Order Now Button'
+                        });
+                    }
+                    // Facebook Pixel
+                    if (typeof fbq !== 'undefined') {
+                        fbq('track', 'InitiateCheckout', {
+                            value: 29.95,
+                            currency: 'USD'
+                        });
+                    }
+                    // Google Ads conversion (if not already tracked via onclick)
+                    if (!button.hasAttribute('onclick')) {
+                        trackConversion();
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- Instagram Embed Script -->
+    <script async src="//www.instagram.com/embed.js"></script>
 </body>
 </html>
