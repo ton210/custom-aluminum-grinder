@@ -679,7 +679,7 @@
                         Premium 4-Piece Design
                     </h2>
                     <div class="design-cta">
-                        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=design_button" class="design-button" onclick="trackConversion()">🎨 Start Designing Your Custom Grinder</a>
+                        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=design_button" class="design-button" onclick="trackConversion(); trackInterClick('design_button');">🎨 Start Designing Your Custom Grinder</a>
                     </div>
                     <ul class="features">
                         <li>Durable aircraft-grade aluminum construction</li>
@@ -697,7 +697,7 @@
                     </div>
                     <div class="cta-buttons">
                         <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=order_now_primary" class="cta-button primary">Order Now</a>
-                        <a href="https://munchmakers.com/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=view_all_grinders" class="cta-button secondary">View All Grinders</a>
+                        <a href="https://munchmakers.com/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=view_all_grinders" class="cta-button secondary" onclick="trackInterClick('view_all_grinders');">View All Grinders</a>
                     </div>
                 </div>
             </div>
@@ -840,7 +840,7 @@
     </section>
 
     <div class="sticky-cta">
-        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=sticky_cta_mobile" class="cta-button" onclick="trackConversion()">Order Now - $29.95</a>
+        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=sticky_cta_mobile" class="cta-button" onclick="trackConversion(); trackInterClick('sticky_cta_mobile');">Order Now - $29.95</a>
     </div>
 
     <footer>
@@ -870,6 +870,25 @@
         gtag('config', 'AW-17416518859');
     </script>
 
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        
+        fbq('init', '1114807750599910');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1114807750599910&ev=PageView&noscript=1" />
+    </noscript>
+
     <script>
         // Google Ads conversion tracking
         function trackConversion() {
@@ -882,6 +901,21 @@
                     'source_page': window.location.hostname
                 }
             });
+        }
+
+        // Facebook Pixel InterClick tracking function
+        function trackInterClick(buttonType) {
+            if (typeof fbq !== 'undefined') {
+                fbq('trackCustom', 'InterClick', {
+                    value: 29.95,
+                    currency: 'USD',
+                    content_category: 'grinder',
+                    content_name: 'custom_aluminum_grinder',
+                    content_type: 'product',
+                    button_type: buttonType,
+                    source_url: window.location.href
+                });
+            }
         }
 
         // Analytics tracking for FB campaigns and general CTA clicks
@@ -900,13 +934,21 @@
                             'campaign_name': 'custom_aluminum_grinder'
                         });
                     }
-                    // Facebook Pixel
+                    // Facebook Pixel - Custom InterClick Event
                     if (typeof fbq !== 'undefined') {
-                        fbq('track', 'InitiateCheckout', {
+                        fbq('trackCustom', 'InterClick', {
                             value: 29.95,
                             currency: 'USD',
                             content_category: 'grinder',
-                            content_name: 'custom_aluminum_grinder'
+                            content_name: 'custom_aluminum_grinder',
+                            content_type: 'product',
+                            button_location: button.getAttribute('class') || 'unknown'
+                        });
+                        
+                        // Also track standard InitiateCheckout for Facebook optimization
+                        fbq('track', 'InitiateCheckout', {
+                            value: 29.95,
+                            currency: 'USD'
                         });
                     }
                     // Google Ads conversion (if not already tracked via onclick)
