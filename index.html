@@ -638,7 +638,7 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <a href="https://munchmakers.com" target="_blank">
+                <a href="https://munchmakers.com?utm_source=landing_page&utm_medium=referral&utm_campaign=custom_aluminum_grinder&utm_content=logo" target="_blank">
                     <img src="downloaded_content/images/munchmakers-logo_1_1752112946__55141.original.png" alt="MunchMakers" class="logo">
                 </a>
                 <div class="header-contact">
@@ -648,7 +648,7 @@
                     <div class="contact-item-header">
                         📞 <a href="tel:+16506403836">+1 650-640-3836</a>
                     </div>
-                    <a href="https://instagram.com/munchmakersshop" target="_blank" class="instagram-link">
+                    <a href="https://instagram.com/munchmakersshop?utm_source=landing_page&utm_medium=social&utm_campaign=custom_aluminum_grinder&utm_content=header_instagram" target="_blank" class="instagram-link">
                         📷 Follow @munchmakersshop
                     </a>
                 </div>
@@ -679,7 +679,7 @@
                         Premium 4-Piece Design
                     </h2>
                     <div class="design-cta">
-                        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/" class="design-button" onclick="trackConversion()">🎨 Start Designing Your Custom Grinder</a>
+                        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=design_button" class="design-button" onclick="trackConversion()">🎨 Start Designing Your Custom Grinder</a>
                     </div>
                     <ul class="features">
                         <li>Durable aircraft-grade aluminum construction</li>
@@ -696,8 +696,8 @@
                         <div class="wholesale-note">Perfect for bulk orders & resellers</div>
                     </div>
                     <div class="cta-buttons">
-                        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/" class="cta-button primary">Order Now</a>
-                        <a href="https://munchmakers.com/" class="cta-button secondary">View All Grinders</a>
+                        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=order_now_primary" class="cta-button primary">Order Now</a>
+                        <a href="https://munchmakers.com/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=view_all_grinders" class="cta-button secondary">View All Grinders</a>
                     </div>
                 </div>
             </div>
@@ -793,7 +793,7 @@
                     </blockquote>
                 </div>
                 <div class="instagram-cta">
-                    <a href="https://instagram.com/munchmakersshop" target="_blank" class="instagram-follow-btn">
+                    <a href="https://instagram.com/munchmakersshop?utm_source=landing_page&utm_medium=social&utm_campaign=custom_aluminum_grinder&utm_content=instagram_follow_main" target="_blank" class="instagram-follow-btn">
                         Follow @munchmakersshop for Design Inspiration
                     </a>
                 </div>
@@ -815,7 +815,7 @@
                         <span class="stars">★★★★★</span>
                         <span class="rating-score">4.6/5</span>
                     </div>
-                    <a href="https://www.trustpilot.com/review/munchmakers.com" target="_blank" class="rating-link">View Reviews</a>
+                    <a href="https://www.trustpilot.com/review/munchmakers.com?utm_source=landing_page&utm_medium=referral&utm_campaign=custom_aluminum_grinder&utm_content=trustpilot_reviews" target="_blank" class="rating-link">View Reviews</a>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number">10+</div>
@@ -840,7 +840,7 @@
     </section>
 
     <div class="sticky-cta">
-        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/" class="cta-button" onclick="trackConversion()">Order Now - $29.95</a>
+        <a href="https://munchmakers.com/product/custom-4-piece-aluminum-grinder/?utm_source=landing_page&utm_medium=cta&utm_campaign=custom_aluminum_grinder&utm_content=sticky_cta_mobile" class="cta-button" onclick="trackConversion()">Order Now - $29.95</a>
     </div>
 
     <footer>
@@ -876,7 +876,11 @@
             gtag('event', 'conversion', {
                 'send_to': 'AW-17416518859/2bHcCJvUo5UbEMv56_BA',
                 'value': 29.95,
-                'currency': 'USD'
+                'currency': 'USD',
+                'custom_parameters': {
+                    'landing_page': 'custom_aluminum_grinder',
+                    'source_page': window.location.hostname
+                }
             });
         }
 
@@ -890,14 +894,19 @@
                     if (typeof gtag !== 'undefined') {
                         gtag('event', 'click', {
                             'event_category': 'CTA',
-                            'event_label': 'Order Now Button'
+                            'event_label': 'Order Now Button',
+                            'campaign_source': 'landing_page',
+                            'campaign_medium': 'cta',
+                            'campaign_name': 'custom_aluminum_grinder'
                         });
                     }
                     // Facebook Pixel
                     if (typeof fbq !== 'undefined') {
                         fbq('track', 'InitiateCheckout', {
                             value: 29.95,
-                            currency: 'USD'
+                            currency: 'USD',
+                            content_category: 'grinder',
+                            content_name: 'custom_aluminum_grinder'
                         });
                     }
                     // Google Ads conversion (if not already tracked via onclick)
