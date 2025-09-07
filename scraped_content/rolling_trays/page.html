@@ -9081,6 +9081,19 @@ Elevate your smoking experience with our light up rolling tray, designed to refl
     fbq('init', '1114807750599910');
     fbq('track', 'PageView');
 
+    // Track ViewContent after 3 seconds
+    setTimeout(function() {
+        if (typeof fbq !== 'undefined') {
+            fbq('track', 'ViewContent', {
+                content_category: 'rolling_trays',
+                content_name: 'custom_rolling_trays',
+                content_type: 'product',
+                value: 12.95,
+                currency: 'USD'
+            });
+        }
+    }, 3000);
+
     // Prevent duplicate events
     let eventFlags = {
         addToCart: false,

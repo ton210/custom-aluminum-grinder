@@ -895,15 +895,6 @@
         </div>
     </footer>
 
-    <!-- Google Analytics Global Site Tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17416518859"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'AW-17416518859');
-    </script>
-
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
@@ -917,6 +908,40 @@
         
         fbq('init', '1114807750599910');
         fbq('track', 'PageView');
+
+        // Track ViewContent after 3 seconds
+        setTimeout(function() {
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'ViewContent', {
+                    content_category: 'grinder',
+                    content_name: 'custom_aluminum_grinder',
+                    content_type: 'product',
+                    value: 29.95,
+                    currency: 'USD'
+                });
+            }
+        }, 3000);
+    </script>
+
+    <!-- Google Analytics Global Site Tag (gtag.js) - Delayed Loading -->
+    <script>
+        setTimeout(function() {
+            // Load Google Analytics after 3 seconds
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-17416518859';
+            document.head.appendChild(script);
+            
+            script.onload = function() {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'AW-17416518859');
+                
+                // Make gtag available globally for other scripts
+                window.gtag = gtag;
+            };
+        }, 3000);
     </script>
     <noscript>
         <img height="1" width="1" style="display:none"

@@ -3458,6 +3458,19 @@ window.bulkClick = function(qty, price) {
     fbq('init', '1114807750599910');
     fbq('track', 'PageView');
 
+    // Track ViewContent after 3 seconds
+    setTimeout(function() {
+        if (typeof fbq !== 'undefined') {
+            fbq('track', 'ViewContent', {
+                content_category: 'grinder',
+                content_name: 'custom_aluminum_grinder',
+                content_type: 'product',
+                value: 29.95,
+                currency: 'USD'
+            });
+        }
+    }, 3000);
+
     // Prevent duplicate events
     let eventFlags = {
         addToCart: false,

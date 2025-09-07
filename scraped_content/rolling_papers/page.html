@@ -9274,6 +9274,19 @@ If you are interested in ordering a sample kit or have any questions <span style
     fbq('init', '1114807750599910');
     fbq('track', 'PageView');
 
+    // Track ViewContent after 3 seconds
+    setTimeout(function() {
+        if (typeof fbq !== 'undefined') {
+            fbq('track', 'ViewContent', {
+                content_category: 'rolling_papers',
+                content_name: 'custom_rolling_papers',
+                content_type: 'product',
+                value: 15.95,
+                currency: 'USD'
+            });
+        }
+    }, 3000);
+
     // Prevent duplicate events
     let eventFlags = {
         addToCart: false,
