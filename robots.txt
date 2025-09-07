@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://custom-aluminum-grinder.munchmakers.com/sitemap.xml
+
+# Allow indexing of all language versions
+Allow: /en/
+Allow: /es/
+Allow: /fi/
+Allow: /da/
+Allow: /no/
+Allow: /sv/
+Allow: /ca/
+Allow: /ru/
+Allow: /tr/
+Allow: /th/
+Allow: /ja/
+Allow: /fr/
+Allow: /de/
+Allow: /it/
+Allow: /pt/
+Allow: /nl/
+
+# Allow legal pages
+Allow: /privacy-policy.html
+Allow: /terms-of-service.html
+Allow: /refund-policy.html
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
