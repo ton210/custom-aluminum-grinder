@@ -1,0 +1,435 @@
+{
+  "url": "https://munchmakers.com/product-category/custom-rolling-trays/",
+  "title": "Custom Rolling Trays | Low MOQ | MunchMakers",
+  "description": "Make your own custom tin rolling trays, wooden rolling trays, biodegradable rolling trays, bamboo rolling trays, and more for your business.",
+  "images": [
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/250x50/munchmakers-logo_1_1752112946__55141.original.png",
+      "alt": "MunchMakers",
+      "local_path": "scraped_content/rolling_trays/images/MunchMakers_0.png",
+      "filename": "MunchMakers_0.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/opening-bc-rolling-trays.png?t=1752669229",
+      "alt": "image_1",
+      "local_path": "scraped_content/rolling_trays/images/image_1_1.png",
+      "filename": "image_1_1.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/564/5582/27X16-RT-LID__31789.1751749999.1280.1280__19493.1753353848.1280.1280__40652.1753858140.png?c=1",
+      "alt": "Rolling Tray With Magnetic Lid - 27x16cm",
+      "local_path": "scraped_content/rolling_trays/images/Rolling Tray With Magnetic Lid - 27x16cm_2.png",
+      "filename": "Rolling Tray With Magnetic Lid - 27x16cm_2.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/564/5588/Lid2__79973.1751749990.1280.1280__29739.1753353848.1280.1280__54871.1753858140.png?c=1",
+      "alt": "Rolling Tray With Magnetic Lid - 27x16cm",
+      "local_path": "scraped_content/rolling_trays/images/Rolling Tray With Magnetic Lid - 27x16cm_3.png",
+      "filename": "Rolling Tray With Magnetic Lid - 27x16cm_3.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/563/5576/18X14-RT-LID__16677.1751750001.1280.1280__06996.1753858130.png?c=1",
+      "alt": "Rolling Tray With Magnetic Lid - 18x14cm",
+      "local_path": "scraped_content/rolling_trays/images/Rolling Tray With Magnetic Lid - 18x14cm_4.png",
+      "filename": "Rolling Tray With Magnetic Lid - 18x14cm_4.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/563/5580/Lid2__79973.1751749990.1280.1280__29739.1753858130.png?c=1",
+      "alt": "Rolling Tray With Magnetic Lid - 18x14cm",
+      "local_path": "scraped_content/rolling_trays/images/Rolling Tray With Magnetic Lid - 18x14cm_5.png",
+      "filename": "Rolling Tray With Magnetic Lid - 18x14cm_5.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/562/5563/27x16-Tray__29263.1752829226.1280.1280__40722.1753351820.1280.1280__97533.1753858045.png?c=1",
+      "alt": "Tin Rolling Trays - 27x16cm",
+      "local_path": "scraped_content/rolling_trays/images/Tin Rolling Trays - 27x16cm_6.png",
+      "filename": "Tin Rolling Trays - 27x16cm_6.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/562/5562/rt15__02974.1751750752.1280.1280__71632.1753351821.1280.1280__46523.1753858045.png?c=1",
+      "alt": "Tin Rolling Trays - 27x16cm",
+      "local_path": "scraped_content/rolling_trays/images/Tin Rolling Trays - 27x16cm_7.png",
+      "filename": "Tin Rolling Trays - 27x16cm_7.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/561/5537/18x14-Tray__89211.1752829226.1280.1280__54268.1753858014.png?c=1",
+      "alt": "Tin Rolling Trays - 18x14cm",
+      "local_path": "scraped_content/rolling_trays/images/Tin Rolling Trays - 18x14cm_8.png",
+      "filename": "Tin Rolling Trays - 18x14cm_8.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/561/5538/TIN_RT__57844.1752829228.1280.1280__44023.1753858014.png?c=1",
+      "alt": "Tin Rolling Trays - 18x14cm",
+      "local_path": "scraped_content/rolling_trays/images/Tin Rolling Trays - 18x14cm_9.png",
+      "filename": "Tin Rolling Trays - 18x14cm_9.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/546/5287/Alu-Rolling-Tray__96018.1753270068.png?c=1",
+      "alt": "Aluminum Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/Aluminum Rolling Tray_10.png",
+      "filename": "Aluminum Rolling Tray_10.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/546/5174/custom-aluminum-rolling-tray-13__97973.1752828232.png?c=1",
+      "alt": "Aluminum Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/Aluminum Rolling Tray_11.png",
+      "filename": "Aluminum Rolling Tray_11.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/543/5243/TIN_RT__57844.1752829228.png?c=1",
+      "alt": "Tin Rolling Trays",
+      "local_path": "scraped_content/rolling_trays/images/Tin Rolling Trays_12.png",
+      "filename": "Tin Rolling Trays_12.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/543/5149/rt15__02974.1751750752.png?c=1",
+      "alt": "Tin Rolling Trays",
+      "local_path": "scraped_content/rolling_trays/images/Tin Rolling Trays_13.png",
+      "filename": "Tin Rolling Trays_13.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/522/5278/BambooTray__87211.1753266801.png?c=1",
+      "alt": "Bamboo Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/Bamboo Rolling Tray_14.png",
+      "filename": "Bamboo Rolling Tray_14.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/522/4798/Bamboo3__46110.1751750247.png?c=1",
+      "alt": "Bamboo Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/Bamboo Rolling Tray_15.png",
+      "filename": "Bamboo Rolling Tray_15.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/517/5286/mini-bio__88802.1753269967.png?c=1",
+      "alt": "BioTray Biodegradable Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/BioTray Biodegradable Rolling Tray_16.png",
+      "filename": "BioTray Biodegradable Rolling Tray_16.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/517/4742/Bt5__70323.1751750172.png?c=1",
+      "alt": "BioTray Biodegradable Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/BioTray Biodegradable Rolling Tray_17.png",
+      "filename": "BioTray Biodegradable Rolling Tray_17.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/516/5290/bio-plus__43625.1753270492.png?c=1",
+      "alt": "Biotray+ Biodegradable Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/Biotray Biodegradable Rolling Tray_18.png",
+      "filename": "Biotray Biodegradable Rolling Tray_18.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/516/4719/Biotray10__62331.1751750140.png?c=1",
+      "alt": "Biotray+ Biodegradable Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/Biotray Biodegradable Rolling Tray_19.png",
+      "filename": "Biotray Biodegradable Rolling Tray_19.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/515/5320/bamboozled-rt__46542.1753275224.png?c=1",
+      "alt": "Bamboozled Wood Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/Bamboozled Wood Rolling Tray_20.png",
+      "filename": "Bamboozled Wood Rolling Tray_20.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/515/4714/Bamboozled2__11425.1751750130.png?c=1",
+      "alt": "Bamboozled Wood Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/Bamboozled Wood Rolling Tray_21.png",
+      "filename": "Bamboozled Wood Rolling Tray_21.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/507/5659/Tray-with-Lid__08593.1753444621.png?c=1",
+      "alt": "Rolling Tray With Magnetic Lid",
+      "local_path": "scraped_content/rolling_trays/images/Rolling Tray With Magnetic Lid_22.png",
+      "filename": "Rolling Tray With Magnetic Lid_22.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/507/4609/Lid1__84629.1751749991.png?c=1",
+      "alt": "Rolling Tray With Magnetic Lid",
+      "local_path": "scraped_content/rolling_trays/images/Rolling Tray With Magnetic Lid_23.png",
+      "filename": "Rolling Tray With Magnetic Lid_23.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/484/4458/Led-Rolling-Tray-01-1__76749.1751749759.png?c=1",
+      "alt": "LED Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/LED Rolling Tray_24.png",
+      "filename": "LED Rolling Tray_24.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/590x590/products/484/4459/Led-Rolling-Tray-02__01822.1751749760.png?c=1",
+      "alt": "LED Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/LED Rolling Tray_25.png",
+      "filename": "LED Rolling Tray_25.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/why-rt-bc.png?t=1752752897",
+      "alt": "image_26",
+      "local_path": "scraped_content/rolling_trays/images/image_26_26.png",
+      "filename": "image_26_26.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/customize-rt-bc.png?t=1752671717",
+      "alt": "image_27",
+      "local_path": "scraped_content/rolling_trays/images/image_27_27.png",
+      "filename": "image_27_27.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/how-to-order-rt-bc.png?t=1752753080",
+      "alt": "image_28",
+      "local_path": "scraped_content/rolling_trays/images/image_28_28.png",
+      "filename": "image_28_28.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/whole-sale-rt-bc.png?t=1752753376",
+      "alt": "image_29",
+      "local_path": "scraped_content/rolling_trays/images/image_29_29.png",
+      "filename": "image_29_29.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/materials.png?t=1752755614",
+      "alt": "image_30",
+      "local_path": "scraped_content/rolling_trays/images/image_30_30.png",
+      "filename": "image_30_30.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/features-and-benefits-bc.png?t=1752756071",
+      "alt": "image_31",
+      "local_path": "scraped_content/rolling_trays/images/image_31_31.png",
+      "filename": "image_31_31.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/rt-image-1.png?t=1752757547",
+      "alt": "image_32",
+      "local_path": "scraped_content/rolling_trays/images/image_32_32.png",
+      "filename": "image_32_32.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/rt-image-2.png?t=1752757552",
+      "alt": "image_33",
+      "local_path": "scraped_content/rolling_trays/images/image_33_33.png",
+      "filename": "image_33_33.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/rt-image-3.png?t=1752757560",
+      "alt": "image_34",
+      "local_path": "scraped_content/rolling_trays/images/image_34_34.png",
+      "filename": "image_34_34.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/cg.png?t=1752487606",
+      "alt": "image_35",
+      "local_path": "scraped_content/rolling_trays/images/image_35_35.png",
+      "filename": "image_35_35.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/crp.png?t=1752487622",
+      "alt": "image_36",
+      "local_path": "scraped_content/rolling_trays/images/image_36_36.png",
+      "filename": "image_36_36.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/ca.png?t=1752579952",
+      "alt": "image_37",
+      "local_path": "scraped_content/rolling_trays/images/image_37_37.png",
+      "filename": "image_37_37.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/cl.png?t=1752487639",
+      "alt": "image_38",
+      "local_path": "scraped_content/rolling_trays/images/image_38_38.png",
+      "filename": "image_38_38.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/order-your-custom-rt-bc.png?t=1752762443",
+      "alt": "image_39",
+      "local_path": "scraped_content/rolling_trays/images/image_39_39.png",
+      "filename": "image_39_39.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/1280w/products/543/5243/TIN_RT__57844.1752829228.png",
+      "alt": "Tin Rolling Trays",
+      "local_path": "scraped_content/rolling_trays/images/Tin Rolling Trays_40.png",
+      "filename": "Tin Rolling Trays_40.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/1280w/products/522/5278/BambooTray__87211.1753266801.png",
+      "alt": "Bamboo Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/Bamboo Rolling Tray_41.png",
+      "filename": "Bamboo Rolling Tray_41.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/1280w/products/517/5286/mini-bio__88802.1753269967.png",
+      "alt": "BioTray Biodegradable Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/BioTray Biodegradable Rolling Tray_42.png",
+      "filename": "BioTray Biodegradable Rolling Tray_42.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/1280w/products/516/5290/bio-plus__43625.1753270492.png",
+      "alt": "Biotray+ Biodegradable Rolling Tray",
+      "local_path": "scraped_content/rolling_trays/images/Biotray Biodegradable Rolling Tray_43.png",
+      "filename": "Biotray Biodegradable Rolling Tray_43.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/1280w/products/507/5659/Tray-with-Lid__08593.1753444621.png",
+      "alt": "Rolling Tray With Magnetic Lid",
+      "local_path": "scraped_content/rolling_trays/images/Rolling Tray With Magnetic Lid_44.png",
+      "filename": "Rolling Tray With Magnetic Lid_44.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/why-use-custom-rolling-trays-bc.png?t=1752764659",
+      "alt": "image_45",
+      "local_path": "scraped_content/rolling_trays/images/image_45_45.png",
+      "filename": "image_45_45.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/features-rt-bc.png?t=1752764850",
+      "alt": "image_46",
+      "local_path": "scraped_content/rolling_trays/images/image_46_46.png",
+      "filename": "image_46_46.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/additional-benefits-of-choosing-munchmakers-bc.png?t=1752765086",
+      "alt": "image_47",
+      "local_path": "scraped_content/rolling_trays/images/image_47_47.png",
+      "filename": "image_47_47.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/rt-testi-1.png?t=1752766671",
+      "alt": "image_48",
+      "local_path": "scraped_content/rolling_trays/images/image_48_48.png",
+      "filename": "image_48_48.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/rt-testi-2.png?t=1752766678",
+      "alt": "image_49",
+      "local_path": "scraped_content/rolling_trays/images/image_49_49.png",
+      "filename": "image_49_49.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/rt-testi-3.png?t=1752766686",
+      "alt": "image_50",
+      "local_path": "scraped_content/rolling_trays/images/image_50_50.png",
+      "filename": "image_50_50.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/environmental-commitment-rt-bc.png?t=1752767177",
+      "alt": "image_51",
+      "local_path": "scraped_content/rolling_trays/images/image_51_51.png",
+      "filename": "image_51_51.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/customization-rt-bc.png?t=1752767315",
+      "alt": "image_52",
+      "local_path": "scraped_content/rolling_trays/images/image_52_52.png",
+      "filename": "image_52_52.png"
+    },
+    {
+      "src": "https://cdn11.bigcommerce.com/s-tqjrceegho/images/stencil/original/image-manager/shipping-and-returns-rt.png?t=1752767647",
+      "alt": "image_53",
+      "local_path": "scraped_content/rolling_trays/images/image_53_53.png",
+      "filename": "image_53_53.png"
+    }
+  ],
+  "products": [
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    },
+    {
+      "title": "",
+      "price": ""
+    }
+  ]
+}
