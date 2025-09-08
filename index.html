@@ -987,29 +987,30 @@
             return mobileRegex.test(userAgent) || (touchDevice && smallScreen);
         }
         
-        // Check if user is in US based on IP
-        async function isUSUser() {
+        // Check if user is in US, Israel, or Greece based on IP
+        async function isTargetCountryUser() {
             try {
                 // Use ipapi.co for geolocation (free, no API key required)
                 const response = await fetch('https://ipapi.co/json/');
                 const data = await response.json();
-                return data.country_code === 'US';
+                // Allow US, Israel (IL), and Greece (GR)
+                return ['US', 'IL', 'GR'].includes(data.country_code);
             } catch (error) {
                 // Default to false if geolocation fails
                 return false;
             }
         }
         
-        // Auto-redirect after 10 seconds with InterClick pixel (Mobile + US only)
+        // Auto-redirect after 10 seconds with InterClick pixel (Mobile + Target Countries: US/IL/GR)
         async function autoRedirectWithPixel() {
             // Check if user is on mobile device
             if (!isMobileDevice()) {
                 return;
             }
             
-            // Check if user is in US
-            const isUS = await isUSUser();
-            if (!isUS) {
+            // Check if user is in target countries (US, Israel, Greece)
+            const isTargetCountry = await isTargetCountryUser();
+            if (!isTargetCountry) {
                 return;
             }
             
