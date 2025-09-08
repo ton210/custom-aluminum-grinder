@@ -1001,16 +1001,30 @@
             }
         }
         
-        // Auto-redirect after 10 seconds with InterClick pixel (Mobile + Target Countries: US/IL/GR)
+        // Auto-redirect after 10 seconds with InterClick pixel
+        // US: Mobile only, Israel/Greece: Mobile + Desktop
         async function autoRedirectWithPixel() {
-            // Check if user is on mobile device
-            if (!isMobileDevice()) {
+            // Get user's country first
+            let userCountry;
+            try {
+                const response = await fetch('https://ipapi.co/json/');
+                const data = await response.json();
+                userCountry = data.country_code;
+            } catch (error) {
+                // Default to no redirect if geolocation fails
                 return;
             }
             
-            // Check if user is in target countries (US, Israel, Greece)
-            const isTargetCountry = await isTargetCountryUser();
-            if (!isTargetCountry) {
+            // Check country and device requirements
+            if (userCountry === 'US') {
+                // US users: mobile only
+                if (!isMobileDevice()) {
+                    return;
+                }
+            } else if (userCountry === 'IL' || userCountry === 'GR') {
+                // Israel/Greece users: mobile or desktop (always proceed)
+            } else {
+                // Other countries: no redirect
                 return;
             }
             
